@@ -66,7 +66,7 @@ public class PackerImpl extends TLGlobals implements Pack200.Packer {
 
     /**
      * Takes a JarFile and converts into a pack-stream.
-     * <p>
+     * 
      * Closes its input but not its output.  (Pack200 archives are appendable.)
      *
      * @param in  a JarFile
@@ -99,9 +99,9 @@ public class PackerImpl extends TLGlobals implements Pack200.Packer {
 
     /**
      * Takes a JarInputStream and converts into a pack-stream.
-     * <p>
+     * 
      * Closes its input but not its output.  (Pack200 archives are appendable.)
-     * <p>
+     * 
      * The modification time and deflation hint attributes are not available,
      * for the jar-manifest file and the directory containing the file.
      *
@@ -109,7 +109,6 @@ public class PackerImpl extends TLGlobals implements Pack200.Packer {
      * @param out an OutputStream
      * @throws IOException if an error is encountered.
      * @see #MODIFICATION_TIME
-     * @see #DEFLATION_HINT
      */
     public synchronized void pack(JarInputStream in, OutputStream out) throws IOException {
         assert (Utils.currentInstance.get() == null);

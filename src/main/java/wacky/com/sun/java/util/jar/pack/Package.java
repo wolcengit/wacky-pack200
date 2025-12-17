@@ -329,7 +329,7 @@ class Package {
          * required to be present in the local InnerClasses
          * attribute.  Perform this calculation without
          * reference to any actual InnerClasses attribute.
-         * <p>
+         * 
          * The order of the resulting list is consistent
          * with that of Package.this.allInnerClasses.
          */
@@ -415,7 +415,7 @@ class Package {
          * Replace the local ICs by their symmetric difference
          * with the globally implied ICs for this class; if this
          * difference is empty, remove the local ICs altogether.
-         * <p>
+         * 
          * An empty local IC attribute is reserved to signal
          * the unpacker to delete the attribute altogether,
          * so a missing local IC attribute signals the unpacker

@@ -101,7 +101,7 @@ final class Histogram {
     /**
      * Histogram of int values, reported compactly as a ragged matrix,
      * indexed by descending frequency rank.
-     * <p>
+     * 
      * Format of matrix:
      * Each row in the matrix begins with an occurrence count,
      * and continues with all int values that occur at that frequency.
@@ -434,7 +434,7 @@ final class Histogram {
     /**
      * Simple two-column histogram.  Contains repeated counts.
      * Assumes input is sorted.  Does not sort output columns.
-     * <p>
+     * 
      * Format of result:
      * <pre>
      *  long[] hist = {

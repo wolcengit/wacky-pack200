@@ -33,10 +33,10 @@ import java.util.*;
  * Collection of relocatable constant pool references.
  * It operates with respect to a particular byte array,
  * and stores some of its state in the bytes themselves.
- * <p>
+ * <pre>
  * As a Collection, it can be iterated over, but it is not a List,
  * since it does not natively support indexed access.
- * <p>
+ * </pre>
  *
  * @author John Rose
  */

@@ -98,7 +98,7 @@ public class UnpackerImpl extends TLGlobals implements Pack200.Unpacker {
      * Takes a packed-stream InputStream, and writes to a JarOutputStream. Internally
      * the entire buffer must be read, it may be more efficient to read the packed-stream
      * to a file and pass the File object, in the alternate method described below.
-     * <p>
+     * 
      * Closes its input but not its output.  (The output can accumulate more elements.)
      *
      * @param in  an InputStream.
@@ -156,7 +156,7 @@ public class UnpackerImpl extends TLGlobals implements Pack200.Unpacker {
 
     /**
      * Takes an input File containing the pack file, and generates a JarOutputStream.
-     * <p>
+     * 
      * Does not close its output.  (The output can accumulate more elements.)
      *
      * @param in  a File.

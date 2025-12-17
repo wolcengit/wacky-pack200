@@ -5,7 +5,7 @@ Due to the legacy project, Pack200 and Upack00 needed to be used under Java 17, 
 
 ```xml
 <dependency>
-    <groupId>wacky-pack200</groupId>
+    <groupId>io.github.wolcengit</groupId>
     <artifactId>wacky-pack200</artifactId>
     <version>1.0.0</version>
 </dependency>

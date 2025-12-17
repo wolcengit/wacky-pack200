@@ -493,7 +493,7 @@ class Driver {
     /*-*
      * Remove a set of command-line options from args,
      * storing them in the map in a canonicalized form.
-     * <p>
+     *
      * The options string is a newline-separated series of
      * option processing specifiers.
      */

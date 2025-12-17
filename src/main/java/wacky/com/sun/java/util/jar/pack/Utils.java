@@ -106,7 +106,7 @@ class Utils {
      * the ordering of class files of the original jar in the output archive.
      * The ordering is preserved only for class-files; resource files
      * may be reordered.
-     * <p>
+     * 
      * If the packer is allowed to reorder class files, it can marginally
      * decrease the transmitted size of the archive.
      */
